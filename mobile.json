@@ -1,0 +1,62 @@
+[
+	{
+	"name":"Samsung Galaxy S23",
+	"brand":"Samsung",
+	"display":"6.1 inches \n2340 x 1080 pixels \n120Hz Refresh rate",
+	"camera":"50 MP (Triple Camera) \n12 MP front",
+	"hardware":"Qualcomm Snapdragon 8 Gen 2 \n8GB 2RAM",
+	"baterry":"3900 mah",
+	"os":"Android 13",
+	"releaseDate":"Feb 17, 2023",
+	"price":"₱19999",
+	"image":"https://images.samsung.com/is/image/samsung/p6pim/ph/2302/gallery/ph-galaxy-s23-s911-sm-s911bzkbphl-534851962?$650_519_PNG$"
+	},
+	{
+	"name":"Samsung Galaxy J4+",
+	"brand":"Samsung",
+	"display":"6.0 inches \n720 x 1480 pixels \n1.7GHz Refresh rate",
+	"camera":"13 MP (Triple Camera) \n5 MP front",
+	"hardware":"Qualcomm MSM8917 Snapdragon 425 \n16GB 3RAM",
+	"baterry":"3300 mah",
+	"os":"Android 8.1",
+	"releaseDate":"Oct 26, 2018",
+	"price":"₱6990",
+	"image":"https://images.samsung.com/is/image/samsung/pk-galaxy-j4-j415-sm-j415fzddpak-frontgold-thumb-119898980"
+	},
+	{
+	"name":"Samsung Galaxy M20",
+	"brand":"Samsung",
+	"display":"6.3 inches \n1080 x 2340 pixels \n60Hz Refresh rate",
+	"camera":"13 MP (Triple Camera) \n8 MP front",
+	"hardware":"Qualcom Sanapdragon 600 quad-core \n32GB 3RAM",
+	"baterry":"5000 mah",
+	"os":"Android 8.1",
+	"releaseDate":"Feb 20, 2019",
+	"price":"₱6990",
+	"image":"https://images.samsung.com/is/image/samsung/levant-galalxy-m20-m205-sm-m205fdadmid-frontebonyblack-thumb-151041145"
+	},
+	{
+	"name":"Samsung Galaxy A20",
+	"brand":"Samsung",
+	"display":"6.4 inches \n720 x 1560 pixels \n60Hz Refresh rate",
+	"camera":"13 MP (Triple Camera) \n8 MP front",
+	"hardware":"Qualcom Sanapdragon 600 quad-core \n32GB 3RAM",
+	"baterry":"4000 mah",
+	"os":"Android 9.0",
+	"releaseDate":"Apr 05, 2019",
+	"price":"₱8850",
+	"image":"https://images.samsung.com/is/image/samsung/ph-galaxy-a20-a205-sm-a205gzkvxtc-frontblack-160506869?$650_519_PNG$"
+	},
+	{
+	"name":"Samsung Galaxy A20s",
+	"brand":"Samsung",
+	"display":"6.5 inches \n720 x 1560 pixels \n60Hz Refresh rate",
+	"camera":"13 MP (Triple Camera) \n8 MP front",
+	"hardware":"Qualcomm SDM450 Snapdragon 450 \n32GB 2RAM",
+	"baterry":"4000 mah",
+	"os":"Android 9.0",
+	"releaseDate":"Oct 05, 2019",
+	"price":"₱9990",
+	"image":"https://images.samsung.com/is/image/samsung/ph-galaxy-a20s-a207-sm-a207fzggxtc-front-thumb-185941587?$480_480_PNG$"
+	}
+]
