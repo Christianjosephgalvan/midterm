@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MOBILEPHONE</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body >
+	
+	<div class="container table-responsive">
+	<h2>MOBILEPHONES</h2>
+	<hr>
+		<table class="table ">
+			<thead class="table-dark align-middle">
+				<tr>
+					<th class="col">Image</th>
+					<th class="col">Name</th>
+					<th class="col">Brand</th>
+					<th class="col">Price</th>
+					<th class="col">Operating System</th>
+					<th class="col">Release Date</th>
+					<th class="col">Display</th>
+					<th class="col">Camera</th>
+					<th class="col">Hardware</th>
+					<th class="col">Battery</th>
+				</tr>
+			</thead>
+			<tbody id="name">
+			</tbody>
+		</table>
+	</div>
+
+	<script>
+		const xmlhttp = new XMLHttpRequest();
+
+		xmlhttp.onload = function() {
+		  var myObj = JSON.parse(this.responseText);
+		  document.getElementById("name").innerHTML = myObj.map(function(data){
+		  	return 	`
+		  			<tr">
+	
+						<td class="align-middle">
+							<img src="${data.image}" class="rounded float-start" alt="" style="max-width: 80px; max-height: 80px;">
+						</td>
+						<td>${data.name}</td>
+						<td>${data.brand}</td>
+						<td>${data.price}</td>
+						<td>${data.os}</td>
+						<td>${data.releaseDate}</td>
+						<td>${data.display}</td>
+						<td>${data.camera}</td>
+						<td>${data.hardware}</td>
+						<td>${data.baterry}</td>
+				
+						
+
+					</tr>
+					`
+		  }).join('');
+		 
+		
+
+		}
+		xmlhttp.open("GET", "http://galvan.test/");
+		xmlhttp.send();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
