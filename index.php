@@ -3,7 +3,7 @@
 header('Access-Control-Allow-Origin: *');
 
 $myObj =json_decode(file_get_contents('mobile.json'));
-/*$myObj->name = 'John Ravan';
+/*$myObj->name = 'Christian Joseph G Galvan';
 $myObj->age = 22;
 $myObj->city = "New York";*/
 
